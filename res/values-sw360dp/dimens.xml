@@ -1,0 +1,4 @@
+<resources>
+    <dimen name="graph_layout_height">250dp</dimen>
+
+</resources>

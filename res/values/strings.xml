@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GrillnGo</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+
+    <string-array name="title">
+        <item>@string/app_name</item>
+        <item>@string/my_dishes</item>
+        <item>@string/timer</item>
+        <item>@string/about</item>
+    </string-array>
+
+    <string name="BBiQ">BBiQ</string>
+    <string name="my_dishes">My Dishes</string>
+    <string name="about">About Us</string>
+    <string name="timer">Timer</string>
+    <string name="pull_down">pull down to connect</string>
+    <string name="current">Current</string>
+    <string name="target">Target</string>
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+    <string name="ble_not_supported">BLE is not supported</string>
+    <string name="label_data">Data:</string>
+    <string name="label_device_address">Device address:</string>
+    <string name="label_state">State:</string>
+    <string name="no_data">No data</string>
+    <string name="connect">Connect</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="connected">Connected</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="title_devices">TeuSoft BLE</string>
+    <string name="error_bluetooth_not_supported">Bluetooth not supported.</string>
+    <string name="unknown_device">Unknown device</string>
+    <string name="unknown_characteristic">Unknown characteristic</string>
+    <string name="unknown_service">Unknown service</string>
+
+    <!-- Menu items -->
+    <string name="menu_connect">Connect</string>
+    <string name="menu_disconnect">Disconnect</string>
+    <string name="menu_reconnect">Reconnect</string>
+    <string name="menu_scan">Scan</string>
+    <string name="menu_stop">Stop</string>
+    <string name="popup_title">Quit application?</string>
+    <string name="popup_message">Device Quit , Do you want to quit this Application?</string>
+    <string name="popup_yes">Yes</string>
+    <string name="popup_no">No</string>
+
+    <!-- Main Activity -->
+    <string name="message_timeout">Connection timeout. Please try again!</string>
+    <string name="about_description">GrillnGo is a new wireless cooking thermometer for your Smartphone. With a build in Bluetooth low energy chipset, which transform your phone into a real time wireless cooking device.</string>
+    <!-- Detail Activity -->
+    <string name="back">Back</string>
+    <string name="save">Save</string>
+    <!-- Location -->
+    <string name="latitude_longitude">%1$.8f, %2$.8f</string>
+    <string name="play_services_available">Google Play services is available</string>
+    <string name="address_output_string">%1$s %2$s %3$s</string>
+    <string name="client_connected">Client connected</string>
+    <string name="connection_error_code_unknown">Unknown connection error code:  %1$d</string>
+    <string name="connection_failed">Connection failed</string>
+    <string name="client_disconnected">Client disconnected</string>
+    <string name="get_address">Get Address</string>
+    <string name="get_location">Get Location</string>
+    <string name="invalid_action">Invalid intent action %1$s</string>
+    <string name="invalid_integer_id">Invalid integer request ID: %1$s</string>
+    <string name="IO_Exception_getFromLocation">Location is not available</string>
+    <string name="location_requested">Periodic updates requested</string>
+    <string name="location_updated">Location updated</string>
+    <string name="location_update_error">Location update failed</string>
+    <string name="location_update_error_detail"></string>
+    <string name="illegal_argument_exception"></string>
+    <string name="no_address_found">No address found for location</string>
+    <string name="no_connection">No connection: Cannot request location</string>
+    <string name="no_geocoder_available">Cannot get address. No geocoder available.</string>
+    <string name="no_location_available">Location not available</string>
+    <string name="resolved">Error resolved. Please re-try operation.</string>
+    <string name="no_resolution">Google Play services: unable to resolve connection error.</string>
+
+</resources>
