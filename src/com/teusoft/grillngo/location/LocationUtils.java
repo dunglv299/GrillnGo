@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.teusoft.bbiq.location;
+package com.teusoft.grillngo.location;
 
 import android.content.Context;
 import android.location.Location;
+import com.teusoft.grillngo.R;
 
-import com.teusoft.bbiq.R;
 
 /**
  * Defines app-wide constants and utilities

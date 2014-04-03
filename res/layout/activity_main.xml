@@ -6,25 +6,25 @@
 
     <fragment
         android:id="@+id/bbiqFragment"
-        android:name="com.teusoft.bbiq.fragment.BBiQFragment"
+        android:name="com.teusoft.grillngo.fragment.BBiQFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
     <fragment
         android:id="@+id/myDishesFragment"
-        android:name="com.teusoft.bbiq.fragment.MyDishesFragment"
+        android:name="com.teusoft.grillngo.fragment.MyDishesFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
     <fragment
         android:id="@+id/timerFragment"
-        android:name="com.teusoft.bbiq.fragment.TimerFragment"
+        android:name="com.teusoft.grillngo.fragment.TimerFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
     <fragment
         android:id="@+id/aboutFragment"
-        android:name="com.teusoft.bbiq.fragment.AboutFragment"
+        android:name="com.teusoft.grillngo.fragment.AboutFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 

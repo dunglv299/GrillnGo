@@ -1,4 +1,4 @@
-package com.teusoft.bbiq.location;
+package com.teusoft.grillngo.location;
 
 import android.app.Dialog;
 import android.os.Bundle;

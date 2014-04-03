@@ -1,4 +1,4 @@
-package com.teusoft.bbiq.entity;
+package com.teusoft.grillngo.entity;
 
 import java.io.Serializable;
 

@@ -1,4 +1,4 @@
-package com.teusoft.bbiq.fragment;
+package com.teusoft.grillngo.fragment;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -8,10 +8,9 @@ import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ListView;
-
 import com.actionbarsherlock.app.SherlockFragment;
-import com.teusoft.bbiq.R;
-import com.teusoft.bbiq.adapter.SlideMenuAdapter;
+import com.teusoft.grillngo.R;
+import com.teusoft.grillngo.adapter.SlideMenuAdapter;
 
 public class MenuFragment extends SherlockFragment implements
 		OnItemClickListener {

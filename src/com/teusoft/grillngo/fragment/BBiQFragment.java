@@ -1,4 +1,4 @@
-package com.teusoft.bbiq.fragment;
+package com.teusoft.grillngo.fragment;
 
 import android.app.AlertDialog;
 import android.app.ProgressDialog;
@@ -28,9 +28,9 @@ import com.jjoe64.graphview.GraphView.GraphViewData;
 import com.jjoe64.graphview.GraphViewSeries;
 import com.jjoe64.graphview.GraphViewSeries.GraphViewSeriesStyle;
 import com.jjoe64.graphview.LineGraphView;
-import com.teusoft.bbiq.R;
-import com.teusoft.bbiq.activity.MainActivity;
-import com.teusoft.bbiq.utils.Utils;
+import com.teusoft.grillngo.R;
+import com.teusoft.grillngo.activity.MainActivity;
+import com.teusoft.grillngo.utils.Utils;
 
 public class BBiQFragment extends Fragment implements OnClickListener {
     GraphViewData[] dataGraph;

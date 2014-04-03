@@ -4203,13 +4203,13 @@ com.teusoft.bbiq.R$raw
 com.teusoft.bbiq.R$string
 com.teusoft.bbiq.R$style
 com.teusoft.bbiq.R$styleable
-com.teusoft.bbiq.activity.AddDishesActivity:
+com.teusoft.grillngo.activity.AddDishesActivity:
     283:291:public void resizeView()
     479:479:public void onLocationChanged(android.location.Location)
-com.teusoft.bbiq.activity.EditDishesActivity:
+com.teusoft.grillngo.activity.EditDishesActivity:
     java.lang.String mCurrentPhotoPath
     java.lang.String imageFileName
-com.teusoft.bbiq.activity.MainActivity:
+com.teusoft.grillngo.activity.MainActivity:
     public java.lang.String fragmentName
     public static final java.lang.String EXTRAS_DEVICE_NAME
     public static final java.lang.String EXTRAS_DEVICE_ADDRESS
@@ -4224,10 +4224,10 @@ com.teusoft.bbiq.activity.MainActivity:
     private static final long SCAN_PERIOD
     390:390:public int getHeartRateValue()
     394:395:public void setHeartRateValue(int)
-com.teusoft.bbiq.activity.ScanActivity:
+com.teusoft.grillngo.activity.ScanActivity:
     private static final int REQUEST_ENABLE_BT
     private static final long SCAN_PERIOD
-com.teusoft.bbiq.dao.DatabaseHelper:
+com.teusoft.grillngo.dao.DatabaseHelper:
     private static final int VERSION
     public static final java.lang.String TABLE_DISHES
     public static final java.lang.String ID
@@ -4238,14 +4238,14 @@ com.teusoft.bbiq.dao.DatabaseHelper:
     public static final java.lang.String LONGITUDE
     public static final java.lang.String LATITUDE
     private static final java.lang.String CREATE_TABLE_DIARY
-com.teusoft.bbiq.dao.DishesDao:
+com.teusoft.grillngo.dao.DishesDao:
     83:86:public void close()
-com.teusoft.bbiq.entity.MyDishes:
+com.teusoft.grillngo.entity.MyDishes:
     private static final long serialVersionUID
     private boolean isPostedFacebook
     83:83:public boolean isPostedFacebook()
     91:92:public void setPostedFacebook(boolean)
-com.teusoft.bbiq.fragment.BBiQFragment:
+com.teusoft.grillngo.fragment.BBiQFragment:
     private static final int CURRENT_INIT
     public static final java.lang.String EXTRAS_DEVICE_NAME
     public static final java.lang.String EXTRAS_DEVICE_ADDRESS
@@ -4257,12 +4257,12 @@ com.teusoft.bbiq.fragment.BBiQFragment:
     194:197:public void onChangeDegreeType()
     576:576:public android.widget.TextView getmDegreeType2()
     583:584:public void setmDegreeType2(android.widget.TextView)
-com.teusoft.bbiq.fragment.MyDishesFragment:
+com.teusoft.grillngo.fragment.MyDishesFragment:
     public static final java.lang.String JPEG_FILE_PREFIX
     public static final java.lang.String JPEG_FILE_SUFFIX
     private static final int ACTION_TAKE_PHOTO
-com.teusoft.bbiq.location.LocationUtils
-com.teusoft.bbiq.service.BluetoothLeService:
+com.teusoft.grillngo.location.LocationUtils
+com.teusoft.grillngo.service.BluetoothLeService:
     private static final int STATE_DISCONNECTED
     private static final int STATE_CONNECTING
     private static final int STATE_CONNECTED
@@ -4271,9 +4271,9 @@ com.teusoft.bbiq.service.BluetoothLeService:
     public static final java.lang.String ACTION_GATT_SERVICES_DISCOVERED
     public static final java.lang.String ACTION_DATA_AVAILABLE
     public static final java.lang.String EXTRA_DATA
-com.teusoft.bbiq.service.SampleGattAttributes:
+com.teusoft.grillngo.service.SampleGattAttributes:
     24:24:public SampleGattAttributes()
-com.teusoft.bbiq.utils.Utils:
+com.teusoft.grillngo.utils.Utils:
     17:17:public Utils()
     56:61:public static android.graphics.Bitmap loadBitmapFromView(android.view.View)
 kankan.wheel.BuildConfig

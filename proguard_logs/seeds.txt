@@ -2242,33 +2242,33 @@ com.teusoft.bbiq.R$styleable: int SlidingMenu_touchModeAbove
 com.teusoft.bbiq.R$styleable: int SlidingMenu_touchModeBehind
 com.teusoft.bbiq.R$styleable: int SlidingMenu_viewAbove
 com.teusoft.bbiq.R$styleable: int SlidingMenu_viewBehind
-com.teusoft.bbiq.activity.AddDishesActivity
-com.teusoft.bbiq.activity.AddDishesActivity: AddDishesActivity()
-com.teusoft.bbiq.activity.AddDishesActivity: void onClick(android.view.View)
-com.teusoft.bbiq.activity.BaseDishesActivity: BaseDishesActivity()
-com.teusoft.bbiq.activity.EditDishesActivity
-com.teusoft.bbiq.activity.EditDishesActivity: EditDishesActivity()
-com.teusoft.bbiq.activity.EditDishesActivity: void onClick(android.view.View)
-com.teusoft.bbiq.activity.MainActivity
-com.teusoft.bbiq.activity.MainActivity: MainActivity()
-com.teusoft.bbiq.activity.MainActivity: void onClick(android.view.View)
-com.teusoft.bbiq.activity.MainActivity: void onDeleteItemClick(android.view.View)
-com.teusoft.bbiq.activity.ScanActivity
-com.teusoft.bbiq.activity.ScanActivity: ScanActivity()
-com.teusoft.bbiq.fragment.AboutFragment
-com.teusoft.bbiq.fragment.AboutFragment: AboutFragment()
-com.teusoft.bbiq.fragment.BBiQFragment
-com.teusoft.bbiq.fragment.BBiQFragment: BBiQFragment()
-com.teusoft.bbiq.fragment.BaseFragment: BaseFragment()
-com.teusoft.bbiq.fragment.MenuFragment
-com.teusoft.bbiq.fragment.MenuFragment: MenuFragment()
-com.teusoft.bbiq.fragment.MyDishesFragment
-com.teusoft.bbiq.fragment.MyDishesFragment: MyDishesFragment()
-com.teusoft.bbiq.fragment.MyDishesFragment: void onDeleteItemClick(android.view.View)
-com.teusoft.bbiq.fragment.TimerFragment
-com.teusoft.bbiq.fragment.TimerFragment: TimerFragment()
-com.teusoft.bbiq.service.BluetoothLeService
-com.teusoft.bbiq.service.BluetoothLeService: BluetoothLeService()
+com.teusoft.grillngo.activity.AddDishesActivity
+com.teusoft.grillngo.activity.AddDishesActivity: AddDishesActivity()
+com.teusoft.grillngo.activity.AddDishesActivity: void onClick(android.view.View)
+com.teusoft.grillngo.activity.BaseDishesActivity: BaseDishesActivity()
+com.teusoft.grillngo.activity.EditDishesActivity
+com.teusoft.grillngo.activity.EditDishesActivity: EditDishesActivity()
+com.teusoft.grillngo.activity.EditDishesActivity: void onClick(android.view.View)
+com.teusoft.grillngo.activity.MainActivity
+com.teusoft.grillngo.activity.MainActivity: MainActivity()
+com.teusoft.grillngo.activity.MainActivity: void onClick(android.view.View)
+com.teusoft.grillngo.activity.MainActivity: void onDeleteItemClick(android.view.View)
+com.teusoft.grillngo.activity.ScanActivity
+com.teusoft.grillngo.activity.ScanActivity: ScanActivity()
+com.teusoft.grillngo.fragment.AboutFragment
+com.teusoft.grillngo.fragment.AboutFragment: AboutFragment()
+com.teusoft.grillngo.fragment.BBiQFragment
+com.teusoft.grillngo.fragment.BBiQFragment: BBiQFragment()
+com.teusoft.grillngo.fragment.BaseFragment: BaseFragment()
+com.teusoft.grillngo.fragment.MenuFragment
+com.teusoft.grillngo.fragment.MenuFragment: MenuFragment()
+com.teusoft.grillngo.fragment.MyDishesFragment
+com.teusoft.grillngo.fragment.MyDishesFragment: MyDishesFragment()
+com.teusoft.grillngo.fragment.MyDishesFragment: void onDeleteItemClick(android.view.View)
+com.teusoft.grillngo.fragment.TimerFragment
+com.teusoft.grillngo.fragment.TimerFragment: TimerFragment()
+com.teusoft.grillngo.service.BluetoothLeService
+com.teusoft.grillngo.service.BluetoothLeService: BluetoothLeService()
 kankan.wheel.R$drawable: int canada
 kankan.wheel.R$drawable: int france
 kankan.wheel.R$drawable: int icon

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.teusoft.bbiq.activity;
+package com.teusoft.grillngo.activity;
 
 import android.app.Activity;
 import android.app.ListActivity;
@@ -31,7 +31,7 @@ import android.widget.BaseAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
-import com.teusoft.bbiq.R;
+import com.teusoft.grillngo.R;
 
 import java.util.ArrayList;
 

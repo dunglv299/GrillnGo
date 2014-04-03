@@ -1,10 +1,4 @@
-package com.teusoft.bbiq.fragment;
-
-import java.io.ByteArrayOutputStream;
-import java.io.File;
-import java.io.IOException;
-import java.util.Calendar;
-import java.util.List;
+package com.teusoft.grillngo.fragment;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -27,15 +21,20 @@ import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.Button;
 import android.widget.ListView;
+import com.teusoft.grillngo.R;
+import com.teusoft.grillngo.activity.AddDishesActivity;
+import com.teusoft.grillngo.activity.EditDishesActivity;
+import com.teusoft.grillngo.activity.MainActivity;
+import com.teusoft.grillngo.adapter.MyDishesAdapter;
+import com.teusoft.grillngo.dao.DishesDao;
+import com.teusoft.grillngo.entity.MyDishes;
+import com.teusoft.grillngo.utils.Utils;
 
-import com.teusoft.bbiq.R;
-import com.teusoft.bbiq.activity.AddDishesActivity;
-import com.teusoft.bbiq.activity.EditDishesActivity;
-import com.teusoft.bbiq.activity.MainActivity;
-import com.teusoft.bbiq.adapter.MyDishesAdapter;
-import com.teusoft.bbiq.dao.DishesDao;
-import com.teusoft.bbiq.entity.MyDishes;
-import com.teusoft.bbiq.utils.Utils;
+import java.io.ByteArrayOutputStream;
+import java.io.File;
+import java.io.IOException;
+import java.util.Calendar;
+import java.util.List;
 
 public class MyDishesFragment extends BaseFragment implements OnClickListener {
 	private ListView mListView;

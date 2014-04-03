@@ -1,4 +1,4 @@
-package com.teusoft.bbiq.dao;
+package com.teusoft.grillngo.dao;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;

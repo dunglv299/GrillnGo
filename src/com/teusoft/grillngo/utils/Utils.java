@@ -1,7 +1,4 @@
-package com.teusoft.bbiq.utils;
-
-import java.io.File;
-import java.io.FileOutputStream;
+package com.teusoft.grillngo.utils;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -11,8 +8,11 @@ import android.media.ExifInterface;
 import android.os.Environment;
 import android.util.Log;
 import android.view.View;
+import com.teusoft.grillngo.R;
 
-import com.teusoft.bbiq.R;
+import java.io.File;
+import java.io.FileOutputStream;
+
 
 public class Utils {
 	/**

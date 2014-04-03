@@ -1,8 +1,4 @@
-package com.teusoft.bbiq.activity;
-
-import java.text.SimpleDateFormat;
-import java.util.Date;
-import java.util.Locale;
+package com.teusoft.grillngo.activity;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -12,16 +8,15 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
-import android.widget.EditText;
-import android.widget.ImageView;
-import android.widget.LinearLayout;
-import android.widget.RelativeLayout;
-import android.widget.TextView;
+import android.widget.*;
+import com.teusoft.grillngo.R;
+import com.teusoft.grillngo.dao.DishesDao;
+import com.teusoft.grillngo.entity.MyDishes;
+import com.teusoft.grillngo.utils.Utils;
 
-import com.teusoft.bbiq.R;
-import com.teusoft.bbiq.dao.DishesDao;
-import com.teusoft.bbiq.entity.MyDishes;
-import com.teusoft.bbiq.utils.Utils;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.Locale;
 
 public class EditDishesActivity extends BaseDishesActivity implements
 		OnClickListener {
@@ -53,7 +48,7 @@ public class EditDishesActivity extends BaseDishesActivity implements
 		imageView1.setVisibility(View.GONE);
 		imageView2 = (ImageView) findViewById(R.id.imageView2);
 		mLocation = (TextView) findViewById(R.id.location_tv);
-		mTitle = (EditText) findViewById(R.id.title_tv);
+		mTitle = (EditText) findViewById(R.id.title_editText);
 		init();
 	}
 

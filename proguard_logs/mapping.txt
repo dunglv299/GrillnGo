@@ -7831,14 +7831,14 @@ com.slidingmenu.lib.SlidingMenu$SavedState$1 -> com.slidingmenu.lib.q:
     com.slidingmenu.lib.SlidingMenu$SavedState[] newArray(int) -> a
     java.lang.Object[] newArray(int) -> newArray
     java.lang.Object createFromParcel(android.os.Parcel) -> createFromParcel
-com.teusoft.bbiq.activity.AddDishesActivity -> com.teusoft.bbiq.activity.AddDishesActivity:
+com.teusoft.grillngo.activity.AddDishesActivity -> com.teusoft.grillngo.activity.AddDishesActivity:
     android.graphics.Bitmap mBitmap -> n
     java.lang.String mCurrentPhotoPath -> o
     android.widget.LinearLayout backBtn -> p
     android.widget.TextView saveBtn -> q
     android.widget.TextView mTimeStamp -> r
-    com.teusoft.bbiq.dao.DishesDao dishesDao -> C
-    com.teusoft.bbiq.entity.MyDishes dishes -> D
+    com.teusoft.grillngo.dao.DishesDao dishesDao -> C
+    com.teusoft.grillngo.entity.MyDishes dishes -> D
     long currentTime -> E
     int _xDelta -> F
     int _yDelta -> G
@@ -7874,41 +7874,41 @@ com.teusoft.bbiq.activity.AddDishesActivity -> com.teusoft.bbiq.activity.AddDish
     void showErrorDialog(int) -> a
     void onConnected(android.os.Bundle) -> a
     void onDisconnected() -> a
-    java.lang.String access$002(com.teusoft.bbiq.activity.AddDishesActivity,java.lang.String) -> a
-    java.lang.String access$000(com.teusoft.bbiq.activity.AddDishesActivity) -> a
-com.teusoft.bbiq.activity.AddDishesActivity$1 -> com.teusoft.bbiq.activity.a:
-    com.teusoft.bbiq.activity.AddDishesActivity this$0 -> a
+    java.lang.String access$002(com.teusoft.grillngo.activity.AddDishesActivity,java.lang.String) -> a
+    java.lang.String access$000(com.teusoft.grillngo.activity.AddDishesActivity) -> a
+com.teusoft.grillngo.activity.AddDishesActivity$1 -> com.teusoft.grillngo.activity.a:
+    com.teusoft.grillngo.activity.AddDishesActivity this$0 -> a
     void onGlobalLayout() -> onGlobalLayout
-com.teusoft.bbiq.activity.AddDishesActivity$GetAddressTask -> com.teusoft.bbiq.activity.b:
+com.teusoft.grillngo.activity.AddDishesActivity$GetAddressTask -> com.teusoft.grillngo.activity.b:
     android.content.Context localContext -> a
-    com.teusoft.bbiq.activity.AddDishesActivity this$0 -> b
+    com.teusoft.grillngo.activity.AddDishesActivity this$0 -> b
     java.lang.String doInBackground(android.location.Location[]) -> a
     void onPostExecute(java.lang.String) -> a
     void onPostExecute(java.lang.Object) -> onPostExecute
     java.lang.Object doInBackground(java.lang.Object[]) -> doInBackground
-com.teusoft.bbiq.activity.AddDishesActivity$SaveImageAsync -> com.teusoft.bbiq.activity.c:
+com.teusoft.grillngo.activity.AddDishesActivity$SaveImageAsync -> com.teusoft.grillngo.activity.c:
     android.content.Context mContext -> b
     android.app.ProgressDialog mProgressDialog -> c
-    com.teusoft.bbiq.activity.AddDishesActivity this$0 -> a
+    com.teusoft.grillngo.activity.AddDishesActivity this$0 -> a
     void onPreExecute() -> onPreExecute
     java.lang.Void doInBackground(java.lang.Void[]) -> a
     void onPostExecute(java.lang.Void) -> a
     void onPostExecute(java.lang.Object) -> onPostExecute
     java.lang.Object doInBackground(java.lang.Object[]) -> doInBackground
-com.teusoft.bbiq.activity.BaseDishesActivity -> com.teusoft.bbiq.activity.d:
+com.teusoft.grillngo.activity.BaseDishesActivity -> com.teusoft.grillngo.activity.d:
     android.widget.Button shareFacebookBtn -> B
     void onCreate(android.os.Bundle) -> onCreate
     void shareViaFacebook() -> j
     void shareImageFromUri(android.net.Uri) -> a
-com.teusoft.bbiq.activity.BaseDishesActivity$1 -> com.teusoft.bbiq.activity.e:
-    com.teusoft.bbiq.activity.BaseDishesActivity this$0 -> a
+com.teusoft.grillngo.activity.BaseDishesActivity$1 -> com.teusoft.grillngo.activity.e:
+    com.teusoft.grillngo.activity.BaseDishesActivity this$0 -> a
     void onClick(android.view.View) -> onClick
-com.teusoft.bbiq.activity.EditDishesActivity -> com.teusoft.bbiq.activity.EditDishesActivity:
+com.teusoft.grillngo.activity.EditDishesActivity -> com.teusoft.grillngo.activity.EditDishesActivity:
     android.widget.LinearLayout backBtn -> n
     android.widget.TextView saveBtn -> o
     android.widget.TextView mTimeStamp -> p
-    com.teusoft.bbiq.dao.DishesDao dishesDao -> w
-    com.teusoft.bbiq.entity.MyDishes dishes -> x
+    com.teusoft.grillngo.dao.DishesDao dishesDao -> w
+    com.teusoft.grillngo.entity.MyDishes dishes -> x
     android.widget.RelativeLayout mRelativeLayout -> q
     android.widget.ImageView mainImageView -> r
     android.widget.ImageView imageView1 -> s
@@ -7920,17 +7920,17 @@ com.teusoft.bbiq.activity.EditDishesActivity -> com.teusoft.bbiq.activity.EditDi
     void onClick(android.view.View) -> onClick
     void setBitmapFromPath(java.lang.String) -> b
     void shareViaFacebook() -> j
-com.teusoft.bbiq.activity.MainActivity -> com.teusoft.bbiq.activity.MainActivity:
+com.teusoft.grillngo.activity.MainActivity -> com.teusoft.grillngo.activity.MainActivity:
     com.slidingmenu.lib.SlidingMenu mSlideMenu -> n
     java.lang.String TAG -> s
     java.lang.String mDeviceAddress -> o
-    com.teusoft.bbiq.service.BluetoothLeService mBluetoothLeService -> p
+    com.teusoft.grillngo.service.BluetoothLeService mBluetoothLeService -> p
     boolean mDiscovered -> q
     java.lang.String LIST_NAME -> t
     java.lang.String LIST_UUID -> u
     boolean isPressDisconnect -> v
     int heartRateValue -> r
-    com.teusoft.bbiq.fragment.BBiQFragment bBiQFragment -> w
+    com.teusoft.grillngo.fragment.BBiQFragment bBiQFragment -> w
     android.support.v4.app.Fragment[] fragments -> x
     java.util.List listDevice -> y
     android.os.Handler scanHandler -> z
@@ -7958,37 +7958,37 @@ com.teusoft.bbiq.activity.MainActivity -> com.teusoft.bbiq.activity.MainActivity
     void scanLeDevice(boolean) -> b
     void connectDevice(int) -> a
     java.lang.String access$000() -> j
-    android.content.ServiceConnection access$100(com.teusoft.bbiq.activity.MainActivity) -> a
-    void access$200(com.teusoft.bbiq.activity.MainActivity) -> b
-    boolean access$300(com.teusoft.bbiq.activity.MainActivity) -> c
-    com.teusoft.bbiq.fragment.BBiQFragment access$400(com.teusoft.bbiq.activity.MainActivity) -> d
-    void access$500(com.teusoft.bbiq.activity.MainActivity,int) -> a
-    void access$600(com.teusoft.bbiq.activity.MainActivity) -> e
-    void access$700(com.teusoft.bbiq.activity.MainActivity,java.util.List) -> a
-    java.util.List access$800(com.teusoft.bbiq.activity.MainActivity) -> f
-    android.bluetooth.BluetoothAdapter$LeScanCallback access$900(com.teusoft.bbiq.activity.MainActivity) -> g
-    android.bluetooth.BluetoothAdapter access$1000(com.teusoft.bbiq.activity.MainActivity) -> h
-com.teusoft.bbiq.activity.MainActivity$1 -> com.teusoft.bbiq.activity.f:
-    com.teusoft.bbiq.activity.MainActivity this$0 -> a
+    android.content.ServiceConnection access$100(com.teusoft.grillngo.activity.MainActivity) -> a
+    void access$200(com.teusoft.grillngo.activity.MainActivity) -> b
+    boolean access$300(com.teusoft.grillngo.activity.MainActivity) -> c
+    com.teusoft.grillngo.fragment.BBiQFragment access$400(com.teusoft.grillngo.activity.MainActivity) -> d
+    void access$500(com.teusoft.grillngo.activity.MainActivity,int) -> a
+    void access$600(com.teusoft.grillngo.activity.MainActivity) -> e
+    void access$700(com.teusoft.grillngo.activity.MainActivity,java.util.List) -> a
+    java.util.List access$800(com.teusoft.grillngo.activity.MainActivity) -> f
+    android.bluetooth.BluetoothAdapter$LeScanCallback access$900(com.teusoft.grillngo.activity.MainActivity) -> g
+    android.bluetooth.BluetoothAdapter access$1000(com.teusoft.grillngo.activity.MainActivity) -> h
+com.teusoft.grillngo.activity.MainActivity$1 -> com.teusoft.grillngo.activity.f:
+    com.teusoft.grillngo.activity.MainActivity this$0 -> a
     void onServiceConnected(android.content.ComponentName,android.os.IBinder) -> onServiceConnected
     void onServiceDisconnected(android.content.ComponentName) -> onServiceDisconnected
-com.teusoft.bbiq.activity.MainActivity$2 -> com.teusoft.bbiq.activity.g:
-    com.teusoft.bbiq.activity.MainActivity this$0 -> a
+com.teusoft.grillngo.activity.MainActivity$2 -> com.teusoft.grillngo.activity.g:
+    com.teusoft.grillngo.activity.MainActivity this$0 -> a
     void onReceive(android.content.Context,android.content.Intent) -> onReceive
-com.teusoft.bbiq.activity.MainActivity$2$1 -> com.teusoft.bbiq.activity.h:
-    com.teusoft.bbiq.activity.MainActivity$2 this$1 -> a
+com.teusoft.grillngo.activity.MainActivity$2$1 -> com.teusoft.grillngo.activity.h:
+    com.teusoft.grillngo.activity.MainActivity$2 this$1 -> a
     void run() -> run
-com.teusoft.bbiq.activity.MainActivity$3 -> com.teusoft.bbiq.activity.i:
-    com.teusoft.bbiq.activity.MainActivity this$0 -> a
+com.teusoft.grillngo.activity.MainActivity$3 -> com.teusoft.grillngo.activity.i:
+    com.teusoft.grillngo.activity.MainActivity this$0 -> a
     void onClick(android.content.DialogInterface,int) -> onClick
-com.teusoft.bbiq.activity.MainActivity$4 -> com.teusoft.bbiq.activity.j:
-    com.teusoft.bbiq.activity.MainActivity this$0 -> a
+com.teusoft.grillngo.activity.MainActivity$4 -> com.teusoft.grillngo.activity.j:
+    com.teusoft.grillngo.activity.MainActivity this$0 -> a
     void onLeScan(android.bluetooth.BluetoothDevice,int,byte[]) -> onLeScan
-com.teusoft.bbiq.activity.MainActivity$5 -> com.teusoft.bbiq.activity.k:
-    com.teusoft.bbiq.activity.MainActivity this$0 -> a
+com.teusoft.grillngo.activity.MainActivity$5 -> com.teusoft.grillngo.activity.k:
+    com.teusoft.grillngo.activity.MainActivity this$0 -> a
     void run() -> run
-com.teusoft.bbiq.activity.ScanActivity -> com.teusoft.bbiq.activity.ScanActivity:
-    com.teusoft.bbiq.activity.ScanActivity$LeDeviceListAdapter mLeDeviceListAdapter -> a
+com.teusoft.grillngo.activity.ScanActivity -> com.teusoft.grillngo.activity.ScanActivity:
+    com.teusoft.grillngo.activity.ScanActivity$LeDeviceListAdapter mLeDeviceListAdapter -> a
     android.bluetooth.BluetoothAdapter mBluetoothAdapter -> b
     boolean mScanning -> c
     android.os.Handler mHandler -> d
@@ -8001,24 +8001,24 @@ com.teusoft.bbiq.activity.ScanActivity -> com.teusoft.bbiq.activity.ScanActivity
     void onPause() -> onPause
     void onListItemClick(android.widget.ListView,android.view.View,int,long) -> onListItemClick
     void scanLeDevice(boolean) -> a
-    boolean access$002(com.teusoft.bbiq.activity.ScanActivity,boolean) -> a
-    android.bluetooth.BluetoothAdapter$LeScanCallback access$100(com.teusoft.bbiq.activity.ScanActivity) -> a
-    android.bluetooth.BluetoothAdapter access$200(com.teusoft.bbiq.activity.ScanActivity) -> b
-    com.teusoft.bbiq.activity.ScanActivity$LeDeviceListAdapter access$300(com.teusoft.bbiq.activity.ScanActivity) -> c
-com.teusoft.bbiq.activity.ScanActivity$1 -> com.teusoft.bbiq.activity.l:
-    com.teusoft.bbiq.activity.ScanActivity this$0 -> a
+    boolean access$002(com.teusoft.grillngo.activity.ScanActivity,boolean) -> a
+    android.bluetooth.BluetoothAdapter$LeScanCallback access$100(com.teusoft.grillngo.activity.ScanActivity) -> a
+    android.bluetooth.BluetoothAdapter access$200(com.teusoft.grillngo.activity.ScanActivity) -> b
+    com.teusoft.grillngo.activity.ScanActivity$LeDeviceListAdapter access$300(com.teusoft.grillngo.activity.ScanActivity) -> c
+com.teusoft.grillngo.activity.ScanActivity$1 -> com.teusoft.grillngo.activity.l:
+    com.teusoft.grillngo.activity.ScanActivity this$0 -> a
     void run() -> run
-com.teusoft.bbiq.activity.ScanActivity$2 -> com.teusoft.bbiq.activity.m:
-    com.teusoft.bbiq.activity.ScanActivity this$0 -> a
+com.teusoft.grillngo.activity.ScanActivity$2 -> com.teusoft.grillngo.activity.m:
+    com.teusoft.grillngo.activity.ScanActivity this$0 -> a
     void onLeScan(android.bluetooth.BluetoothDevice,int,byte[]) -> onLeScan
-com.teusoft.bbiq.activity.ScanActivity$2$1 -> com.teusoft.bbiq.activity.n:
+com.teusoft.grillngo.activity.ScanActivity$2$1 -> com.teusoft.grillngo.activity.n:
     android.bluetooth.BluetoothDevice val$device -> a
-    com.teusoft.bbiq.activity.ScanActivity$2 this$1 -> b
+    com.teusoft.grillngo.activity.ScanActivity$2 this$1 -> b
     void run() -> run
-com.teusoft.bbiq.activity.ScanActivity$LeDeviceListAdapter -> com.teusoft.bbiq.activity.o:
+com.teusoft.grillngo.activity.ScanActivity$LeDeviceListAdapter -> com.teusoft.grillngo.activity.o:
     java.util.ArrayList mLeDevices -> b
     android.view.LayoutInflater mInflator -> c
-    com.teusoft.bbiq.activity.ScanActivity this$0 -> a
+    com.teusoft.grillngo.activity.ScanActivity this$0 -> a
     void addDevice(android.bluetooth.BluetoothDevice) -> a
     android.bluetooth.BluetoothDevice getDevice(int) -> a
     void clear() -> a
@@ -8026,11 +8026,11 @@ com.teusoft.bbiq.activity.ScanActivity$LeDeviceListAdapter -> com.teusoft.bbiq.a
     java.lang.Object getItem(int) -> getItem
     long getItemId(int) -> getItemId
     android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
-com.teusoft.bbiq.activity.ScanActivity$ViewHolder -> com.teusoft.bbiq.activity.p:
+com.teusoft.grillngo.activity.ScanActivity$ViewHolder -> com.teusoft.grillngo.activity.p:
     android.widget.TextView deviceName -> a
     android.widget.TextView deviceAddress -> b
     android.widget.TextView deviceConnected -> c
-com.teusoft.bbiq.adapter.MyDishesAdapter -> com.teusoft.bbiq.a.a:
+com.teusoft.grillngo.adapter.MyDishesAdapter -> com.teusoft.bbiq.a.a:
     java.util.List listDishes -> c
     android.view.LayoutInflater mInflator -> d
     com.nostra13.universalimageloader.core.ImageLoader imageLoader -> a
@@ -8042,18 +8042,18 @@ com.teusoft.bbiq.adapter.MyDishesAdapter -> com.teusoft.bbiq.a.a:
     long getItemId(int) -> getItemId
     void refresh(java.util.List) -> a
     android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
-com.teusoft.bbiq.adapter.MyDishesAdapter$1 -> com.teusoft.bbiq.a.b:
-com.teusoft.bbiq.adapter.MyDishesAdapter$AnimateFirstDisplayListener -> com.teusoft.bbiq.a.c:
+com.teusoft.grillngo.adapter.MyDishesAdapter$1 -> com.teusoft.bbiq.a.b:
+com.teusoft.grillngo.adapter.MyDishesAdapter$AnimateFirstDisplayListener -> com.teusoft.bbiq.a.c:
     java.util.List displayedImages -> a
     void onLoadingComplete(java.lang.String,android.view.View,android.graphics.Bitmap) -> a
-com.teusoft.bbiq.adapter.MyDishesAdapter$ViewHolder -> com.teusoft.bbiq.a.d:
+com.teusoft.grillngo.adapter.MyDishesAdapter$ViewHolder -> com.teusoft.bbiq.a.d:
     android.widget.ImageView mImageView -> a
     android.widget.ImageView mImageLocation -> b
     android.widget.Button mDeleteBtn -> c
     android.widget.TextView mTitle -> d
     android.widget.TextView mTimeStamp -> e
     android.widget.TextView mLocation -> f
-com.teusoft.bbiq.adapter.SlideMenuAdapter -> com.teusoft.bbiq.a.e:
+com.teusoft.grillngo.adapter.SlideMenuAdapter -> com.teusoft.bbiq.a.e:
     int[] listImage -> a
     java.lang.String[] listTitle -> b
     android.view.LayoutInflater mInflator -> c
@@ -8061,24 +8061,24 @@ com.teusoft.bbiq.adapter.SlideMenuAdapter -> com.teusoft.bbiq.a.e:
     java.lang.Object getItem(int) -> getItem
     long getItemId(int) -> getItemId
     android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
-com.teusoft.bbiq.adapter.SlideMenuAdapter$ViewHolder -> com.teusoft.bbiq.a.f:
+com.teusoft.grillngo.adapter.SlideMenuAdapter$ViewHolder -> com.teusoft.bbiq.a.f:
     android.widget.ImageView mImageView -> a
     android.widget.TextView mTitle -> b
-com.teusoft.bbiq.dao.DatabaseHelper -> com.teusoft.bbiq.b.a:
+com.teusoft.grillngo.dao.DatabaseHelper -> com.teusoft.bbiq.b.a:
     java.lang.String dbFileName -> b
     android.database.sqlite.SQLiteDatabase db -> a
     void onCreate(android.database.sqlite.SQLiteDatabase) -> onCreate
     void onUpgrade(android.database.sqlite.SQLiteDatabase,int,int) -> onUpgrade
     void close() -> close
-com.teusoft.bbiq.dao.DishesDao -> com.teusoft.bbiq.b.b:
+com.teusoft.grillngo.dao.DishesDao -> com.teusoft.bbiq.b.b:
     android.database.sqlite.SQLiteDatabase mDB -> b
-    com.teusoft.bbiq.dao.DatabaseHelper mHelper -> a
-    com.teusoft.bbiq.entity.MyDishes dishes -> c
-    long insert(com.teusoft.bbiq.entity.MyDishes) -> a
-    void update(com.teusoft.bbiq.entity.MyDishes) -> b
-    void delete(com.teusoft.bbiq.entity.MyDishes) -> c
+    com.teusoft.grillngo.dao.DatabaseHelper mHelper -> a
+    com.teusoft.grillngo.entity.MyDishes dishes -> c
+    long insert(com.teusoft.grillngo.entity.MyDishes) -> a
+    void update(com.teusoft.grillngo.entity.MyDishes) -> b
+    void delete(com.teusoft.grillngo.entity.MyDishes) -> c
     java.util.List getAllMyDishes() -> a
-com.teusoft.bbiq.entity.MyDishes -> com.teusoft.bbiq.c.a:
+com.teusoft.grillngo.entity.MyDishes -> com.teusoft.bbiq.c.a:
     int id -> a
     java.lang.String title -> b
     long timeStamp -> c
@@ -8100,9 +8100,9 @@ com.teusoft.bbiq.entity.MyDishes -> com.teusoft.bbiq.c.a:
     void setLongitude(double) -> a
     double getLatitude() -> g
     void setLatitude(double) -> b
-com.teusoft.bbiq.fragment.AboutFragment -> com.teusoft.bbiq.fragment.AboutFragment:
+com.teusoft.grillngo.fragment.AboutFragment -> com.teusoft.grillngo.fragment.AboutFragment:
     android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle) -> a
-com.teusoft.bbiq.fragment.BBiQFragment -> com.teusoft.bbiq.fragment.BBiQFragment:
+com.teusoft.grillngo.fragment.BBiQFragment -> com.teusoft.grillngo.fragment.BBiQFragment:
     com.jjoe64.graphview.GraphView$GraphViewData[] dataGraph -> a
     com.jjoe64.graphview.GraphView$GraphViewData[] dataLine -> b
     java.lang.Runnable mTimer -> aa
@@ -8161,42 +8161,42 @@ com.teusoft.bbiq.fragment.BBiQFragment -> com.teusoft.bbiq.fragment.BBiQFragment
     void clearGraph() -> J
     void showIcon(int) -> d
     void hideIcon() -> K
-    android.widget.TextView access$000(com.teusoft.bbiq.fragment.BBiQFragment) -> a
-    android.widget.TextView access$100(com.teusoft.bbiq.fragment.BBiQFragment) -> b
-    int access$200(com.teusoft.bbiq.fragment.BBiQFragment) -> c
-    boolean access$300(com.teusoft.bbiq.fragment.BBiQFragment) -> d
-    boolean access$400(com.teusoft.bbiq.fragment.BBiQFragment) -> e
-    boolean access$302(com.teusoft.bbiq.fragment.BBiQFragment,boolean) -> a
-    int access$500(com.teusoft.bbiq.fragment.BBiQFragment) -> f
-    int access$600(com.teusoft.bbiq.fragment.BBiQFragment) -> g
-    int access$602(com.teusoft.bbiq.fragment.BBiQFragment,int) -> a
-    int access$700(com.teusoft.bbiq.fragment.BBiQFragment) -> h
-    android.os.Handler access$800(com.teusoft.bbiq.fragment.BBiQFragment) -> i
-    int access$908(com.teusoft.bbiq.fragment.BBiQFragment) -> j
-    int access$900(com.teusoft.bbiq.fragment.BBiQFragment) -> k
-    int access$1000(com.teusoft.bbiq.fragment.BBiQFragment) -> l
-    int access$728(com.teusoft.bbiq.fragment.BBiQFragment,int) -> b
-    int access$1128(com.teusoft.bbiq.fragment.BBiQFragment,int) -> c
-    int access$1100(com.teusoft.bbiq.fragment.BBiQFragment) -> m
-    android.os.Handler access$1200(com.teusoft.bbiq.fragment.BBiQFragment) -> n
-com.teusoft.bbiq.fragment.BBiQFragment$1 -> com.teusoft.bbiq.fragment.a:
-    com.teusoft.bbiq.fragment.BBiQFragment this$0 -> a
+    android.widget.TextView access$000(com.teusoft.grillngo.fragment.BBiQFragment) -> a
+    android.widget.TextView access$100(com.teusoft.grillngo.fragment.BBiQFragment) -> b
+    int access$200(com.teusoft.grillngo.fragment.BBiQFragment) -> c
+    boolean access$300(com.teusoft.grillngo.fragment.BBiQFragment) -> d
+    boolean access$400(com.teusoft.grillngo.fragment.BBiQFragment) -> e
+    boolean access$302(com.teusoft.grillngo.fragment.BBiQFragment,boolean) -> a
+    int access$500(com.teusoft.grillngo.fragment.BBiQFragment) -> f
+    int access$600(com.teusoft.grillngo.fragment.BBiQFragment) -> g
+    int access$602(com.teusoft.grillngo.fragment.BBiQFragment,int) -> a
+    int access$700(com.teusoft.grillngo.fragment.BBiQFragment) -> h
+    android.os.Handler access$800(com.teusoft.grillngo.fragment.BBiQFragment) -> i
+    int access$908(com.teusoft.grillngo.fragment.BBiQFragment) -> j
+    int access$900(com.teusoft.grillngo.fragment.BBiQFragment) -> k
+    int access$1000(com.teusoft.grillngo.fragment.BBiQFragment) -> l
+    int access$728(com.teusoft.grillngo.fragment.BBiQFragment,int) -> b
+    int access$1128(com.teusoft.grillngo.fragment.BBiQFragment,int) -> c
+    int access$1100(com.teusoft.grillngo.fragment.BBiQFragment) -> m
+    android.os.Handler access$1200(com.teusoft.grillngo.fragment.BBiQFragment) -> n
+com.teusoft.grillngo.fragment.BBiQFragment$1 -> com.teusoft.grillngo.fragment.a:
+    com.teusoft.grillngo.fragment.BBiQFragment this$0 -> a
     void onGlobalLayout() -> onGlobalLayout
-com.teusoft.bbiq.fragment.BBiQFragment$2 -> com.teusoft.bbiq.fragment.b:
-    com.teusoft.bbiq.fragment.BBiQFragment this$0 -> a
+com.teusoft.grillngo.fragment.BBiQFragment$2 -> com.teusoft.grillngo.fragment.b:
+    com.teusoft.grillngo.fragment.BBiQFragment this$0 -> a
     void run() -> run
-com.teusoft.bbiq.fragment.BBiQFragment$3 -> com.teusoft.bbiq.fragment.c:
-    com.teusoft.bbiq.fragment.BBiQFragment this$0 -> a
+com.teusoft.grillngo.fragment.BBiQFragment$3 -> com.teusoft.grillngo.fragment.c:
+    com.teusoft.grillngo.fragment.BBiQFragment this$0 -> a
     void run() -> run
-com.teusoft.bbiq.fragment.BBiQFragment$4 -> com.teusoft.bbiq.fragment.d:
-    com.teusoft.bbiq.fragment.BBiQFragment this$0 -> a
+com.teusoft.grillngo.fragment.BBiQFragment$4 -> com.teusoft.grillngo.fragment.d:
+    com.teusoft.grillngo.fragment.BBiQFragment this$0 -> a
     void onCompletion(android.media.MediaPlayer) -> onCompletion
-com.teusoft.bbiq.fragment.BaseFragment -> com.teusoft.bbiq.fragment.e:
+com.teusoft.grillngo.fragment.BaseFragment -> com.teusoft.grillngo.fragment.e:
     android.widget.Button mSlideBtn -> a
     void onClick(android.view.View) -> onClick
-com.teusoft.bbiq.fragment.MenuFragment -> com.teusoft.bbiq.fragment.MenuFragment:
-    com.teusoft.bbiq.fragment.MenuFragment$MenuClickInterFace mClick -> a
-    com.teusoft.bbiq.adapter.SlideMenuAdapter mSlideMenuAdapter -> b
+com.teusoft.grillngo.fragment.MenuFragment -> com.teusoft.grillngo.fragment.MenuFragment:
+    com.teusoft.grillngo.fragment.MenuFragment$MenuClickInterFace mClick -> a
+    com.teusoft.grillngo.adapter.SlideMenuAdapter mSlideMenuAdapter -> b
     android.widget.ListView mListView -> c
     int[] listIcon -> d
     java.lang.String[] listTitle -> e
@@ -8204,13 +8204,13 @@ com.teusoft.bbiq.fragment.MenuFragment -> com.teusoft.bbiq.fragment.MenuFragment
     void onActivityCreated(android.os.Bundle) -> d
     android.view.View onCreateView(android.view.LayoutInflater,android.view.ViewGroup,android.os.Bundle) -> a
     void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
-com.teusoft.bbiq.fragment.MenuFragment$MenuClickInterFace -> com.teusoft.bbiq.fragment.f:
+com.teusoft.grillngo.fragment.MenuFragment$MenuClickInterFace -> com.teusoft.grillngo.fragment.f:
     void onListitemClick(java.lang.String) -> b
-com.teusoft.bbiq.fragment.MyDishesFragment -> com.teusoft.bbiq.fragment.MyDishesFragment:
+com.teusoft.grillngo.fragment.MyDishesFragment -> com.teusoft.grillngo.fragment.MyDishesFragment:
     android.widget.ListView mListView -> b
-    com.teusoft.bbiq.dao.DishesDao dishesDao -> c
+    com.teusoft.grillngo.dao.DishesDao dishesDao -> c
     long currentTime -> d
-    com.teusoft.bbiq.adapter.MyDishesAdapter mAdapter -> e
+    com.teusoft.grillngo.adapter.MyDishesAdapter mAdapter -> e
     java.util.List listDishes -> f
     android.widget.Button takeImageBtn -> g
     android.content.Context context -> h
@@ -8226,20 +8226,20 @@ com.teusoft.bbiq.fragment.MyDishesFragment -> com.teusoft.bbiq.fragment.MyDishes
     android.graphics.Bitmap rotate(android.graphics.Bitmap,int) -> b
     void onResume() -> l
     void refresh() -> a
-    void deleteMyDishes(com.teusoft.bbiq.entity.MyDishes) -> a
+    void deleteMyDishes(com.teusoft.grillngo.entity.MyDishes) -> a
     void onDeleteItemClick(android.view.View) -> onDeleteItemClick
-    android.widget.ListView access$000(com.teusoft.bbiq.fragment.MyDishesFragment) -> a
-com.teusoft.bbiq.fragment.MyDishesFragment$1 -> com.teusoft.bbiq.fragment.g:
-    com.teusoft.bbiq.fragment.MyDishesFragment this$0 -> a
+    android.widget.ListView access$000(com.teusoft.grillngo.fragment.MyDishesFragment) -> a
+com.teusoft.grillngo.fragment.MyDishesFragment$1 -> com.teusoft.grillngo.fragment.g:
+    com.teusoft.grillngo.fragment.MyDishesFragment this$0 -> a
     void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
-com.teusoft.bbiq.fragment.MyDishesFragment$2 -> com.teusoft.bbiq.fragment.h:
-    com.teusoft.bbiq.entity.MyDishes val$dishes -> a
-    com.teusoft.bbiq.fragment.MyDishesFragment this$0 -> b
+com.teusoft.grillngo.fragment.MyDishesFragment$2 -> com.teusoft.grillngo.fragment.h:
+    com.teusoft.grillngo.entity.MyDishes val$dishes -> a
+    com.teusoft.grillngo.fragment.MyDishesFragment this$0 -> b
     void onClick(android.content.DialogInterface,int) -> onClick
-com.teusoft.bbiq.fragment.MyDishesFragment$3 -> com.teusoft.bbiq.fragment.i:
-    com.teusoft.bbiq.fragment.MyDishesFragment this$0 -> a
+com.teusoft.grillngo.fragment.MyDishesFragment$3 -> com.teusoft.grillngo.fragment.i:
+    com.teusoft.grillngo.fragment.MyDishesFragment this$0 -> a
     void onClick(android.content.DialogInterface,int) -> onClick
-com.teusoft.bbiq.fragment.TimerFragment -> com.teusoft.bbiq.fragment.TimerFragment:
+com.teusoft.grillngo.fragment.TimerFragment -> com.teusoft.grillngo.fragment.TimerFragment:
     android.widget.Button timerBtn -> f
     android.widget.TextView textView -> g
     boolean timerHasStarted -> h
@@ -8264,32 +8264,32 @@ com.teusoft.bbiq.fragment.TimerFragment -> com.teusoft.bbiq.fragment.TimerFragme
     void cancelPlayWarningSound() -> A
     void showNotification(android.content.Context,java.lang.String,int) -> a
     void cancelNotification(android.content.Context,int) -> a
-    android.os.CountDownTimer access$002(com.teusoft.bbiq.fragment.TimerFragment,android.os.CountDownTimer) -> a
-    android.widget.TextView access$100(com.teusoft.bbiq.fragment.TimerFragment) -> a
-    boolean access$202(com.teusoft.bbiq.fragment.TimerFragment,boolean) -> a
-com.teusoft.bbiq.fragment.TimerFragment$1 -> com.teusoft.bbiq.fragment.j:
-    com.teusoft.bbiq.fragment.TimerFragment this$0 -> a
+    android.os.CountDownTimer access$002(com.teusoft.grillngo.fragment.TimerFragment,android.os.CountDownTimer) -> a
+    android.widget.TextView access$100(com.teusoft.grillngo.fragment.TimerFragment) -> a
+    boolean access$202(com.teusoft.grillngo.fragment.TimerFragment,boolean) -> a
+com.teusoft.grillngo.fragment.TimerFragment$1 -> com.teusoft.grillngo.fragment.j:
+    com.teusoft.grillngo.fragment.TimerFragment this$0 -> a
     void onScrollingStarted(kankan.wheel.widget.WheelView) -> a
     void onScrollingFinished(kankan.wheel.widget.WheelView) -> b
-com.teusoft.bbiq.fragment.TimerFragment$2 -> com.teusoft.bbiq.fragment.k:
-    com.teusoft.bbiq.fragment.TimerFragment this$0 -> a
+com.teusoft.grillngo.fragment.TimerFragment$2 -> com.teusoft.grillngo.fragment.k:
+    com.teusoft.grillngo.fragment.TimerFragment this$0 -> a
     void onItemClicked(kankan.wheel.widget.WheelView,int) -> a
-com.teusoft.bbiq.fragment.TimerFragment$3 -> com.teusoft.bbiq.fragment.l:
+com.teusoft.grillngo.fragment.TimerFragment$3 -> com.teusoft.grillngo.fragment.l:
     java.lang.String val$label -> a
-    com.teusoft.bbiq.fragment.TimerFragment this$0 -> b
+    com.teusoft.grillngo.fragment.TimerFragment this$0 -> b
     void onChanged(kankan.wheel.widget.WheelView,int,int) -> a
-com.teusoft.bbiq.fragment.TimerFragment$4 -> com.teusoft.bbiq.fragment.m:
-    com.teusoft.bbiq.fragment.TimerFragment this$0 -> a
+com.teusoft.grillngo.fragment.TimerFragment$4 -> com.teusoft.grillngo.fragment.m:
+    com.teusoft.grillngo.fragment.TimerFragment this$0 -> a
     void onCompletion(android.media.MediaPlayer) -> onCompletion
-com.teusoft.bbiq.fragment.TimerFragment$MyCountDownTimer -> com.teusoft.bbiq.fragment.n:
-    com.teusoft.bbiq.fragment.TimerFragment this$0 -> a
+com.teusoft.grillngo.fragment.TimerFragment$MyCountDownTimer -> com.teusoft.grillngo.fragment.n:
+    com.teusoft.grillngo.fragment.TimerFragment this$0 -> a
     void onFinish() -> onFinish
     void onTick(long) -> onTick
-com.teusoft.bbiq.location.ErrorDialogFragment -> com.teusoft.bbiq.d.a:
+com.teusoft.grillngo.location.ErrorDialogFragment -> com.teusoft.bbiq.d.a:
     android.app.Dialog mDialog -> Y
     void setDialog(android.app.Dialog) -> a
     android.app.Dialog onCreateDialog(android.os.Bundle) -> c
-com.teusoft.bbiq.service.BluetoothLeService -> com.teusoft.bbiq.service.BluetoothLeService:
+com.teusoft.grillngo.service.BluetoothLeService -> com.teusoft.grillngo.service.BluetoothLeService:
     java.lang.String TAG -> b
     android.bluetooth.BluetoothManager mBluetoothManager -> c
     android.bluetooth.BluetoothAdapter mBluetoothAdapter -> d
@@ -8310,26 +8310,26 @@ com.teusoft.bbiq.service.BluetoothLeService -> com.teusoft.bbiq.service.Bluetoot
     void readCharacteristic(android.bluetooth.BluetoothGattCharacteristic) -> a
     void setCharacteristicNotification(android.bluetooth.BluetoothGattCharacteristic,boolean) -> a
     java.util.List getSupportedGattServices() -> d
-    int access$002(com.teusoft.bbiq.service.BluetoothLeService,int) -> a
-    void access$100(com.teusoft.bbiq.service.BluetoothLeService,java.lang.String) -> a
+    int access$002(com.teusoft.grillngo.service.BluetoothLeService,int) -> a
+    void access$100(com.teusoft.grillngo.service.BluetoothLeService,java.lang.String) -> a
     java.lang.String access$200() -> e
-    android.bluetooth.BluetoothGatt access$300(com.teusoft.bbiq.service.BluetoothLeService) -> a
-    void access$400(com.teusoft.bbiq.service.BluetoothLeService,java.lang.String,android.bluetooth.BluetoothGattCharacteristic) -> a
-com.teusoft.bbiq.service.BluetoothLeService$1 -> com.teusoft.bbiq.service.a:
-    com.teusoft.bbiq.service.BluetoothLeService this$0 -> a
+    android.bluetooth.BluetoothGatt access$300(com.teusoft.grillngo.service.BluetoothLeService) -> a
+    void access$400(com.teusoft.grillngo.service.BluetoothLeService,java.lang.String,android.bluetooth.BluetoothGattCharacteristic) -> a
+com.teusoft.grillngo.service.BluetoothLeService$1 -> com.teusoft.grillngo.service.a:
+    com.teusoft.grillngo.service.BluetoothLeService this$0 -> a
     void onConnectionStateChange(android.bluetooth.BluetoothGatt,int,int) -> onConnectionStateChange
     void onServicesDiscovered(android.bluetooth.BluetoothGatt,int) -> onServicesDiscovered
     void onCharacteristicRead(android.bluetooth.BluetoothGatt,android.bluetooth.BluetoothGattCharacteristic,int) -> onCharacteristicRead
     void onCharacteristicChanged(android.bluetooth.BluetoothGatt,android.bluetooth.BluetoothGattCharacteristic) -> onCharacteristicChanged
-com.teusoft.bbiq.service.BluetoothLeService$LocalBinder -> com.teusoft.bbiq.service.b:
-    com.teusoft.bbiq.service.BluetoothLeService this$0 -> a
-    com.teusoft.bbiq.service.BluetoothLeService getService() -> a
-com.teusoft.bbiq.service.SampleGattAttributes -> com.teusoft.bbiq.service.c:
+com.teusoft.grillngo.service.BluetoothLeService$LocalBinder -> com.teusoft.grillngo.service.b:
+    com.teusoft.grillngo.service.BluetoothLeService this$0 -> a
+    com.teusoft.grillngo.service.BluetoothLeService getService() -> a
+com.teusoft.grillngo.service.SampleGattAttributes -> com.teusoft.grillngo.service.c:
     java.util.HashMap attributes -> c
     java.lang.String HEART_RATE_MEASUREMENT -> a
     java.lang.String CLIENT_CHARACTERISTIC_CONFIG -> b
     java.lang.String lookup(java.lang.String,java.lang.String) -> a
-com.teusoft.bbiq.utils.Utils -> com.teusoft.bbiq.e.a:
+com.teusoft.grillngo.utils.Utils -> com.teusoft.bbiq.e.a:
     android.graphics.Bitmap getBitmapFromViewWithColor(android.view.View,int) -> a
     java.io.File getAlbumDir(android.content.Context) -> a
     void exportBitmapToFile(android.graphics.Bitmap,java.lang.String) -> a

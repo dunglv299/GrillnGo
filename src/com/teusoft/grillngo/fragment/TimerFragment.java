@@ -1,4 +1,4 @@
-package com.teusoft.bbiq.fragment;
+package com.teusoft.grillngo.fragment;
 
 import android.app.Activity;
 import android.app.Notification;
@@ -19,8 +19,8 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
-import com.teusoft.bbiq.R;
-import com.teusoft.bbiq.activity.MainActivity;
+import com.teusoft.grillngo.R;
+import com.teusoft.grillngo.activity.MainActivity;
 import kankan.wheel.widget.OnWheelChangedListener;
 import kankan.wheel.widget.OnWheelClickedListener;
 import kankan.wheel.widget.OnWheelScrollListener;

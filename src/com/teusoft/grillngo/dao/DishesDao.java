@@ -1,4 +1,4 @@
-package com.teusoft.bbiq.dao;
+package com.teusoft.grillngo.dao;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -8,7 +8,7 @@ import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 
-import com.teusoft.bbiq.entity.MyDishes;
+import com.teusoft.grillngo.entity.MyDishes;
 
 public class DishesDao {
 	private SQLiteDatabase mDB;

@@ -1,4 +1,4 @@
-package com.teusoft.bbiq.adapter;
+package com.teusoft.grillngo.adapter;
 
 import android.app.Activity;
 import android.content.Context;
@@ -26,9 +26,9 @@ import com.nostra13.universalimageloader.core.display.FadeInBitmapDisplayer;
 import com.nostra13.universalimageloader.core.display.RoundedBitmapDisplayer;
 import com.nostra13.universalimageloader.core.download.BaseImageDownloader;
 import com.nostra13.universalimageloader.utils.StorageUtils;
-import com.teusoft.bbiq.R;
-import com.teusoft.bbiq.entity.MyDishes;
-import com.teusoft.bbiq.utils.Utils;
+import com.teusoft.grillngo.R;
+import com.teusoft.grillngo.entity.MyDishes;
+import com.teusoft.grillngo.utils.Utils;
 
 import java.io.File;
 import java.text.SimpleDateFormat;

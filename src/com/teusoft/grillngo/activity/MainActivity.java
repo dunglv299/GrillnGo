@@ -1,4 +1,4 @@
-package com.teusoft.bbiq.activity;
+package com.teusoft.grillngo.activity;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -18,12 +18,12 @@ import android.widget.Toast;
 import com.actionbarsherlock.app.SherlockFragmentActivity;
 import com.actionbarsherlock.view.MenuItem;
 import com.slidingmenu.lib.SlidingMenu;
-import com.teusoft.bbiq.R;
-import com.teusoft.bbiq.fragment.BBiQFragment;
-import com.teusoft.bbiq.fragment.MenuFragment;
-import com.teusoft.bbiq.fragment.MyDishesFragment;
-import com.teusoft.bbiq.service.BluetoothLeService;
-import com.teusoft.bbiq.service.SampleGattAttributes;
+import com.teusoft.grillngo.R;
+import com.teusoft.grillngo.fragment.BBiQFragment;
+import com.teusoft.grillngo.fragment.MenuFragment;
+import com.teusoft.grillngo.fragment.MyDishesFragment;
+import com.teusoft.grillngo.service.BluetoothLeService;
+import com.teusoft.grillngo.service.SampleGattAttributes;
 
 import java.util.ArrayList;
 import java.util.HashMap;

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.teusoft.bbiq.service;
+package com.teusoft.grillngo.service;
 
 import java.util.HashMap;
 
