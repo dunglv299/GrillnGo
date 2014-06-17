@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/GrillnGo.iml" filepath="$PROJECT_DIR$/GrillnGo.iml" />
-      <module fileurl="file://$USER_HOME$/workspace/actionbarsherlock/actionbarsherlock.iml" filepath="$USER_HOME$/workspace/actionbarsherlock/actionbarsherlock.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../actionbarsherlock/actionbarsherlock.iml" filepath="$PROJECT_DIR$/../actionbarsherlock/actionbarsherlock.iml" />
       <module fileurl="file://$USER_HOME$/workspace/google-play-services_lib/google-play-services_lib.iml" filepath="$USER_HOME$/workspace/google-play-services_lib/google-play-services_lib.iml" />
       <module fileurl="file://$USER_HOME$/workspace/slidemenulibrary/slidemenulibrary.iml" filepath="$USER_HOME$/workspace/slidemenulibrary/slidemenulibrary.iml" />
       <module fileurl="file://$USER_HOME$/workspace/wheel-old-lib/wheel-old-lib.iml" filepath="$USER_HOME$/workspace/wheel-old-lib/wheel-old-lib.iml" />

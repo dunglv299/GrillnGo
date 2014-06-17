@@ -50,16 +50,6 @@
     </orderEntry>
     <orderEntry type="module" module-name="wheel-old-lib" />
     <orderEntry type="module" module-name="slidemenulibrary" />
-    <orderEntry type="module" module-name="actionbarsherlock" />
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../android-support-v4.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
     <orderEntry type="module-library">
       <library>
         <CLASSES>
@@ -69,6 +59,8 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="library" name="android-support-v4" level="project" />
+    <orderEntry type="module" module-name="actionbarsherlock" />
   </component>
 </module>
 

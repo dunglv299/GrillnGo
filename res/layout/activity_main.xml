@@ -12,19 +12,19 @@
 
     <fragment
         android:id="@+id/myDishesFragment"
-        android:name="com.teusoft.grillngo.fragment.MyDishesFragment"
+        android:name="com.teusoft.grillngo.fragment.MyDishesFragmentMenu"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
     <fragment
         android:id="@+id/timerFragment"
-        android:name="com.teusoft.grillngo.fragment.TimerFragment"
+        android:name="com.teusoft.grillngo.fragment.TimerFragmentMenu"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
     <fragment
         android:id="@+id/aboutFragment"
-        android:name="com.teusoft.grillngo.fragment.AboutFragment"
+        android:name="com.teusoft.grillngo.fragment.AboutFragmentMenu"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 

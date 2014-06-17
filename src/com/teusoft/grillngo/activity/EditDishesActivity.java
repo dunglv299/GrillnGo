@@ -37,8 +37,6 @@ public class EditDishesActivity extends BaseDishesActivity implements
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		backBtn = (LinearLayout) findViewById(R.id.back_btn);
-		backBtn.setOnClickListener(this);
 		saveBtn = (TextView) findViewById(R.id.save_btn);
 		saveBtn.setOnClickListener(this);
 		mTimeStamp = (TextView) findViewById(R.id.timestamp_tv);
@@ -48,7 +46,7 @@ public class EditDishesActivity extends BaseDishesActivity implements
 		imageView1.setVisibility(View.GONE);
 		imageView2 = (ImageView) findViewById(R.id.imageView2);
 		mLocation = (TextView) findViewById(R.id.location_tv);
-		mTitle = (EditText) findViewById(R.id.title_editText);
+		mTitle = (EditText) findViewById(R.id.title_ed);
 		init();
 	}
 
@@ -66,9 +64,6 @@ public class EditDishesActivity extends BaseDishesActivity implements
 	@Override
 	public void onClick(View v) {
 		switch (v.getId()) {
-		case R.id.back_btn:
-			finish();
-			break;
 		case R.id.save_btn:
 			// Convert view to bitmap
 			// Save to dao

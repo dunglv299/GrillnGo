@@ -20,10 +20,7 @@ import android.view.ViewGroup;
 import android.view.ViewTreeObserver;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
-import android.widget.Button;
-import android.widget.ImageView;
-import android.widget.LinearLayout;
-import android.widget.TextView;
+import android.widget.*;
 import com.jjoe64.graphview.GraphView.GraphViewData;
 import com.jjoe64.graphview.GraphViewSeries;
 import com.jjoe64.graphview.GraphViewSeries.GraphViewSeriesStyle;
@@ -60,8 +57,8 @@ public class BBiQFragment extends Fragment implements OnClickListener {
     public TextView mTarget;
     private TextView mDegreeType1;
     private TextView mDegreeType2;
-    private ImageView mAlarmImage;
-    private Button slideBtn;
+    private ImageButton mAlarmImage;
+    private ImageButton slideBtn;
     private LinearLayout layout;
     private ImageView imgAnimal;
     private boolean isStartedDraw;
@@ -114,11 +111,12 @@ public class BBiQFragment extends Fragment implements OnClickListener {
         );
         mDegreeType1 = (TextView) v.findViewById(R.id.degree_type1);
         mDegreeType2 = (TextView) v.findViewById(R.id.degree_type2);
-        mAlarmImage = (ImageView) v.findViewById(R.id.img_alarm);
+        mAlarmImage = (ImageButton) v.findViewById(R.id.right_button);
+        mAlarmImage.setImageResource(R.drawable.ic_sound);
         mAlarmImage.setVisibility(View.GONE);
         mAlarmImage.setOnClickListener(this);
         imgAnimal = (ImageView) v.findViewById(R.id.img_animal);
-        slideBtn = (Button) v.findViewById(R.id.slide_btn);
+        slideBtn = (ImageButton) v.findViewById(R.id.slide_btn);
         slideBtn.setOnClickListener(this);
         mConnectBtn = (Button) v.findViewById(R.id.connect_btn);
         mConnectBtn.setOnClickListener(this);
@@ -146,7 +144,7 @@ public class BBiQFragment extends Fragment implements OnClickListener {
                     showConnectDialog();
                 }
                 break;
-            case R.id.img_alarm:
+            case R.id.right_button:
                 if (isPlayingSound) {
                     flagCancelAlarm = true;
                     cancelPlayWarningSound();
@@ -216,7 +214,6 @@ public class BBiQFragment extends Fragment implements OnClickListener {
         min = 68;
         if (mDegreeType1.getText().toString().equals("\u2103")) {
             target = target * 9 / 5 + 32;
-            Log.e("dunglv", "dunglv");
         }
         drawLine(target);
     }
@@ -241,7 +238,6 @@ public class BBiQFragment extends Fragment implements OnClickListener {
         min = 20;
         if (mDegreeType1.getText().toString().equals("\u2109")) {
             target = (target - 32) * 5 / 9;
-            Log.e("dunglv", "dunglv");
         }
         drawLine(target);
     }
@@ -255,7 +251,6 @@ public class BBiQFragment extends Fragment implements OnClickListener {
                 && !mDegreeType1.getText().toString().isEmpty()) {
             isSwitchDegree = true;
             isChangedToF = true;
-            Log.e("dunglv", "Change to F");
         } else if (previousValue >= 2000
                 && value < 2000
                 && mDegreeType1.getText().toString()
@@ -263,7 +258,6 @@ public class BBiQFragment extends Fragment implements OnClickListener {
                 && !mDegreeType1.getText().toString().isEmpty()) {
             isSwitchDegree = true;
             isChangedToF = false;
-            Log.e("dunglv", "Change to C");
         }
         // Convert to data temperature
         if (value < 1000) {
@@ -340,10 +334,10 @@ public class BBiQFragment extends Fragment implements OnClickListener {
                         for (int i = 0; i < dataGraph.length; i++) {
                             dataGraph[i] = newValues[i];
                             if (Math.max(target, y) > maxYaxis) {
-                                maxYaxis = Math.max(target, y) + 20;
-                                if (maxYaxis > 90 && maxYaxis < 100) {
+                                maxYaxis = Math.max(target, y) + 5;
+                                if (maxYaxis <= 100) {
                                     maxYaxis = 100;
-                                } else if (maxYaxis > 190 && maxYaxis < 200) {
+                                } else if (maxYaxis > 100 && maxYaxis < 200) {
                                     maxYaxis = 200;
                                 }
                                 graphView.setManualYAxisBounds(maxYaxis, 0);
@@ -441,7 +435,7 @@ public class BBiQFragment extends Fragment implements OnClickListener {
      */
     public void playWarningSound() {
         if (mp == null) {
-            TimerFragment.showNotification(getActivity(),
+            TimerFragmentMenu.showNotification(getActivity(),
                     "Target temperature is reached!", 0);
             Uri soundUri = RingtoneManager
                     .getDefaultUri(RingtoneManager.TYPE_ALARM);
@@ -469,7 +463,7 @@ public class BBiQFragment extends Fragment implements OnClickListener {
             mp = null;
         }
         stopBlinking();
-        TimerFragment.cancelNotification(getActivity(), 0);
+        TimerFragmentMenu.cancelNotification(getActivity(), 0);
     }
 
     public Bitmap getExportedBitmap() {
@@ -554,13 +548,13 @@ public class BBiQFragment extends Fragment implements OnClickListener {
 
     public void showIcon(int heartRateValue) {
         imgAnimal.setVisibility(View.VISIBLE);
-        if (heartRateValue == 4001) {
+        if (heartRateValue >= 4001 && heartRateValue <= 4006) {
             imgAnimal.setImageResource(R.drawable.cow);
         } else if (heartRateValue == 4008) {
             imgAnimal.setImageResource(R.drawable.chicken);
-        } else if (heartRateValue == 4009) {
+        } else if (heartRateValue >= 4009 && heartRateValue <= 4010) {
             imgAnimal.setImageResource(R.drawable.pig);
-        } else if (heartRateValue == 4011) {
+        } else if (heartRateValue >= 4011 && heartRateValue <= 4013) {
             imgAnimal.setImageResource(R.drawable.sheep);
         }
     }

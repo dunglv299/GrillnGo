@@ -1,24 +1,60 @@
 package com.teusoft.grillngo.fragment;
 
+import android.app.Activity;
+import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.view.LayoutInflater;
 import android.view.View;
-import android.view.View.OnClickListener;
-import android.widget.Button;
-import com.teusoft.grillngo.R;
-import com.teusoft.grillngo.activity.MainActivity;
+import android.view.ViewGroup;
 
-public class BaseFragment extends Fragment implements OnClickListener {
-	public Button mSlideBtn;
+public abstract class BaseFragment extends Fragment {
+
+	protected Activity context;
+
+	/**
+	 * initialize view from first create
+	 * 
+	 * @param view
+	 */
+	abstract protected void initView(View view);
+
+    /**
+     * initialize data after initView
+     *
+     * @param view
+     */
+    abstract protected void initialize(View view);
+
+	/**
+	 * @return resource id of layout of fragment
+	 */
+	abstract protected int getLayoutId();
+
+	/**
+	 * Function only called when fragment is created when configuration changed
+	 * 
+	 * @param savedInstanceState
+	 */
+	protected void onOrientationChanged(Bundle savedInstanceState) {
+		// Call when orientation changed
+	}
 
 	@Override
-	public void onClick(View v) {
-		switch (v.getId()) {
-		case R.id.slide_btn:
-			((MainActivity) getActivity()).mSlideMenu.toggle();
-			break;
-
-		default:
-			break;
+	public View onCreateView(LayoutInflater inflater, ViewGroup container,
+			Bundle savedInstanceState) {
+		if (savedInstanceState != null) {
+			onOrientationChanged(savedInstanceState);
 		}
+		View view = inflater.inflate(getLayoutId(), container, false);
+		initView(view);
+        initialize(view);
+		return view;
 	}
+
+	@Override
+	public void onAttach(Activity activity) {
+		super.onAttach(activity);
+		this.context = activity;
+	}
+
 }

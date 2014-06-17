@@ -58,7 +58,7 @@ public class ScanActivity extends ListActivity {
 		super.onCreate(savedInstanceState);
 		getActionBar().setTitle("");
 		getActionBar()
-				.setIcon(getResources().getDrawable(R.drawable.grilln_logo));
+				.setIcon(getResources().getDrawable(R.drawable.bbiq_image_header));
 		mHandler = new Handler();
 
 		// Use this check to determine whether BLE is supported on the device.

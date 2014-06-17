@@ -1,5 +1,8 @@
 package com.teusoft.grillngo.utils;
 
+import java.io.File;
+import java.io.FileOutputStream;
+
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.Canvas;
@@ -8,11 +11,8 @@ import android.media.ExifInterface;
 import android.os.Environment;
 import android.util.Log;
 import android.view.View;
+
 import com.teusoft.grillngo.R;
-
-import java.io.File;
-import java.io.FileOutputStream;
-
 
 public class Utils {
 	/**

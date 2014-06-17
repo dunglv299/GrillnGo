@@ -6,53 +6,11 @@
               android:orientation="vertical"
               tools:ignore="contentDescription">
 
-    <RelativeLayout
-            android:id="@+id/layout1"
+    <include
+            android:layout_marginTop="@dimen/margin_10"
+            layout="@layout/layout_header"
             android:layout_width="match_parent"
-            android:layout_height="@dimen/bbiq_height">
-
-        <ImageView
-                android:id="@+id/imageView3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_centerInParent="true"
-                android:background="@drawable/grilln_logo"/>
-
-        <Button
-                android:id="@+id/img_share_fb"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentRight="true"
-                android:layout_centerVertical="true"
-                android:layout_marginRight="30dp"
-                android:background="@drawable/ic_share_fb"/>
-
-        <LinearLayout
-                android:id="@+id/back_btn"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentLeft="true"
-                android:layout_alignTop="@+id/imageView3"
-                android:gravity="center_vertical"
-                android:paddingBottom="10dp"
-                android:paddingRight="10dp"
-                android:paddingTop="10dp">
-
-            <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="20dp"
-                    android:src="@drawable/icon_back"/>
-
-            <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="5dp"
-                    android:text="@string/back"
-                    android:textColor="@color/white"
-                    android:textSize="25sp"/>
-        </LinearLayout>
-    </RelativeLayout>
+            android:layout_height="wrap_content"/>
 
     <RelativeLayout
             android:id="@+id/image_imgv"
@@ -81,7 +39,7 @@
                 android:layout_alignTop="@+id/imageView2"
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="19dp"
-                android:src="@drawable/grilln_logo"/>
+                android:src="@drawable/bbiq_image_header"/>
     </RelativeLayout>
 
     <LinearLayout
@@ -98,7 +56,7 @@
                 android:layout_marginTop="10dp">
 
             <EditText
-                    android:id="@+id/title_editText"
+                    android:id="@+id/title_ed"
                     android:layout_width="250dp"
                     android:layout_height="30dp"
                     android:layout_centerVertical="true"
@@ -114,6 +72,7 @@
                     android:id="@+id/save_btn"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:background="@drawable/cyan_selector"
                     android:layout_alignParentRight="true"
                     android:layout_centerVertical="true"
                     android:layout_marginRight="25dp"

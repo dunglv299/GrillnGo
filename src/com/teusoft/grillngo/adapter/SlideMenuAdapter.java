@@ -7,8 +7,8 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
-import com.teusoft.grillngo.R;
 
+import com.teusoft.grillngo.R;
 
 public class SlideMenuAdapter extends BaseAdapter {
 	private int[] listImage;

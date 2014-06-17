@@ -8,10 +8,7 @@ import android.os.AsyncTask;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.BaseAdapter;
-import android.widget.Button;
-import android.widget.ImageView;
-import android.widget.TextView;
+import android.widget.*;
 import com.nostra13.universalimageloader.cache.disc.impl.UnlimitedDiscCache;
 import com.nostra13.universalimageloader.cache.disc.naming.HashCodeFileNameGenerator;
 import com.nostra13.universalimageloader.cache.memory.impl.UsingFreqLimitedMemoryCache;
@@ -119,7 +116,7 @@ public class MyDishesAdapter extends BaseAdapter {
 					.findViewById(R.id.timestamp_tv);
 			viewHolder.mLocation = (TextView) view
 					.findViewById(R.id.location_tv);
-			viewHolder.mDeleteBtn = (Button) view.findViewById(R.id.delete_btn);
+			viewHolder.mDeleteBtn = (ImageButton) view.findViewById(R.id.delete_btn);
 			view.setTag(viewHolder);
 		} else {
 			viewHolder = (ViewHolder) view.getTag();
@@ -153,7 +150,7 @@ public class MyDishesAdapter extends BaseAdapter {
 	static class ViewHolder {
 		ImageView mImageView;
 		ImageView mImageLocation;
-		Button mDeleteBtn;
+        ImageButton mDeleteBtn;
 		TextView mTitle;
 		TextView mTimeStamp;
 		TextView mLocation;

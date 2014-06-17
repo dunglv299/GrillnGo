@@ -20,8 +20,8 @@ import com.actionbarsherlock.view.MenuItem;
 import com.slidingmenu.lib.SlidingMenu;
 import com.teusoft.grillngo.R;
 import com.teusoft.grillngo.fragment.BBiQFragment;
-import com.teusoft.grillngo.fragment.MenuFragment;
-import com.teusoft.grillngo.fragment.MyDishesFragment;
+import com.teusoft.grillngo.fragment.LeftMenuFragment;
+import com.teusoft.grillngo.fragment.MyDishesFragmentMenu;
 import com.teusoft.grillngo.service.BluetoothLeService;
 import com.teusoft.grillngo.service.SampleGattAttributes;
 
@@ -30,7 +30,7 @@ import java.util.HashMap;
 import java.util.List;
 
 public class MainActivity extends SherlockFragmentActivity implements
-        MenuFragment.MenuClickInterFace, OnClickListener {
+        LeftMenuFragment.MenuClickInterFace, OnClickListener {
     public SlidingMenu mSlideMenu;
     public String fragmentName;
 
@@ -120,7 +120,7 @@ public class MainActivity extends SherlockFragmentActivity implements
 
     @Override
     public void onListitemClick(String item) {
-        if (item.equals(getResources().getString(R.string.app_name))) {
+        if (item.equals(getResources().getString(R.string.BBiQ))) {
             showFragment(0, false);
         } else if (item.equals(getResources().getString(R.string.my_dishes))) {
             showFragment(1, false);
@@ -407,7 +407,7 @@ public class MainActivity extends SherlockFragmentActivity implements
     }
 
     public void onDeleteItemClick(View v) {
-        MyDishesFragment dishesFragment = (MyDishesFragment) fragments[MYDISHES];
+        MyDishesFragmentMenu dishesFragment = (MyDishesFragmentMenu) fragments[MYDISHES];
         if (dishesFragment != null) {
             dishesFragment.onDeleteItemClick(v);
         }
